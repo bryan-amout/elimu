@@ -1,0 +1,17 @@
+form{
+
+    background-color: #6ea8fe;
+    padding: 40px;
+    width: 70%;
+    margin: auto;
+
+}
+body{
+    background-image: url("../assets/images/free4.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    text-align: center;
+}

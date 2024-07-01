@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gallery</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'CSS/gallery.css' %}">
+</head>
+<body>
+<h2>Gallery page.Welcome..</h2>
+    <a href="{% url 'form' %}">form</a>
+    <a href="{% url 'home' %}">info</a>
+    <a href="{% url 'info' %}">Gallery</a>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi consequatur distinctio error, necessitatibus quis quod quos. Aliquid architecto inventore laudantium maxime pariatur, vel. Asperiores culpa eos iste voluptate voluptatem?</span><span>Asperiores beatae, commodi nobis quaerat quam quas reiciendis tenetur veritatis! Aliquid atque consequuntur excepturi expedita laborum, magni necessitatibus nesciunt numquam officiis placeat quia repudiandae sed sequi, tempore vitae? Nihil, nulla.</span></p>
+<img src="{% static 'assets/images/free8.jpeg' %}" alt="">
+<img src="{% static 'assets/images/free7.jpeg' %}" alt="">
+<img src="{% static 'assets/images/free6.jpeg' %}" alt="">
+<img src="{% static 'assets/images/free5.jpeg' %}" alt="">
+<img src="{% static 'assets/images/free4.jpeg' %}" alt="">
+</body>
+</html>

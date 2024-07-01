@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homepage</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css'%}">
+    <script{% static 'js/bootstrap.min.js' %}></script>
+    <link rel="stylesheet" href="{% static 'CSS/style.css'%}">
+    <style>
+
+    </style>
+</head>
+<body>
+<h1 style="color: black">ELIMU APPLICATION</h1>
+<div>
+    <a href="{% url 'form' %}"class="btn btn-primary">form</a>
+    <a href="{% url 'gallery' %}"class="btn btn-primary">info</a>
+    <a href="{% url 'info' %}"class="btn btn-primary">Gallery</a>
+</div>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid asperiores doloremque earum esse fugiat nemo odio quibusdam voluptates. Adipisci, amet ea facere fugit nulla odio quis sint sunt temporibus.</span><span>Aliquam consectetur corporis doloribus ea expedita maxime modi molestias necessitatibus neque non nostrum officia porro quasi quis, reiciendis repudiandae saepe sapiente sequi similique, voluptate? Animi eum harum illum praesentium saepe.</span></p>
+<div class="home">
+    <img src="{% static 'assets/images/free4.jpeg'%} " alt="">
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consequatur delectus, ea ipsa itaque nesciunt quo similique sunt! Ad animi atque fugiat iusto laborum molestias mollitia, provident quaerat rem sunt.</span><span>A accusantium amet aut consectetur consequatur dolorem dolores dolorum ducimus ex expedita facilis fugiat laborum laudantium molestias necessitatibus nemo nulla quaerat, quibusdam quidem saepe sapiente unde vel velit veritatis voluptate.</span><span>Accusantium animi id mollitia nemo repellendus sit unde, ut vero. Aliquid dignissimos distinctio, eaque ex laboriosam nemo, numquam provident quae quasi quibusdam quidem repellat soluta tempora. Eligendi hic perferendis quas?</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda consequuntur deserunt dicta, doloremque dolorum ea eius eos eveniet facilis fugit ipsa minus numquam omnis pariatur placeat quia quod unde!<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci consequatur, cupiditate debitis, distinctio facilis fuga inventore laborum optio quae quam quasi quidem ratione reiciendis rerum saepe suscipit tempore unde.</span><span>At, aut corporis cum, doloribus eos expedita fugit inventore molestiae nam, nulla omnis pariatur quasi sit totam ut velit voluptatem! Accusantium aperiam cumque molestiae, odit officia officiis quod repudiandae ullam?</span></p>
+
+</div>
+</body>
+</html>
